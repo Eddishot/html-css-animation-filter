@@ -153,7 +153,7 @@
 }
 
  .ex-12-top-white{
-    animation: move-right 2s linear infinite;
+    animation: move-right 4s linear infinite;
 
 }
 
@@ -163,14 +163,14 @@
     }
 
     100%{
-        left: 80%;
+        left: calc(100% - 60px);
     }
 
 
 }
 
 .ex-12-bottom-white{
-    animation: move-left 2s linear infinite ;
+    animation: move-left 4s linear infinite ;
 
 }
 
@@ -180,7 +180,7 @@
     }
 
     100%{
-        right: 80%;
+        right: calc(100% - 60px);  
     }
 
 
@@ -199,7 +199,7 @@
 }
 
 .ex-13-top-white {
-    animation: move-around-top 2s linear infinite;
+    animation: move-around-top 4s linear infinite;
     
 }
 
@@ -210,7 +210,7 @@
     }
 
     100%{
-        left: 80%;
+        left: 100%;
     }
 
 
@@ -218,7 +218,7 @@
 }
 
 .ex-13-bottom-white{
-    animation: move-around-bottom 2s linear infinite;
+    animation: move-around-bottom 4s linear infinite;
 }
 
 @keyframes move-around-bottom{
@@ -226,7 +226,7 @@
         right:0%;
     }
 
-    50%{
+    100%{
         right: 100%;
     }
    
